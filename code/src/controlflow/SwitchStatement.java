@@ -4,10 +4,13 @@ public class SwitchStatement {
 
 	public static void main(String[] args) {
 		byte a = 30;
-		final int b = 40;
-//		b=40;
-		final int c = 50;
-		switch (WeekDays) {
+		final byte b=40;
+//	    b=40;
+		final byte c = 50;
+		switch (-128) { 
+//		System.out.println("bhaiya");
+		 
+	
 		case 10: {
 			System.out.println("bhaiya");
 			break;
@@ -27,8 +30,9 @@ public class SwitchStatement {
 		}
 		default: {
 			System.out.println("sagar");
+//			break;// it will execute case b also when default case run.
 		}
-		case b: {
+		case (b): {
 			System.out.println("Ambe");
 			break;
 		}
@@ -36,16 +40,16 @@ public class SwitchStatement {
 			System.out.println("Hii");
 			break;
 		}
-		/**
-		 * default:{ System.out.println("Jatav"); break; }
-		 **/
+		
+		  /**default:{ System.out.println("Jatav"); break; }*/
+		 
 		}
-		System.out.println("Hello");
+//		System.out.println("Hello");
 
 	}
 
-	enum WeekDays {
+	/*enum WeekDays {
 		SUN, MON, TUE;
-	}
+	}*/
 
 }

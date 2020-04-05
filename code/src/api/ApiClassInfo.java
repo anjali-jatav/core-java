@@ -1,13 +1,17 @@
 package api;
 
-import java.lang.reflect.Method;
+import java.util.ArrayList;
+
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
+import java.lang.reflect.Method;
+import java.util.stream.Collectors;
 
 public class ApiClassInfo {
 
 	public static void main(String[] args)  throws ClassNotFoundException{
-		Class<?> forName = Class.forName("java.lang.String");
+		Class<?> forName = Class.forName("java.util.Map");
 		Method[] methods = forName.getMethods();
 		List<String> collect = Arrays.stream(methods).map(s->s.getName()).distinct().collect(Collectors.toList());
 		collect.forEach(System.out::println);	

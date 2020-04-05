@@ -14,7 +14,7 @@ public static void main(String[] args) {
 //	System.out.println(Boolean.MIN_VALUE +" " +Boolean.MIN_VALUE);
 	
 	System.out.println(ANJALI);
-	System.out.println('9'+ 1);
+	System.out.println('A'+ 1);
 	
 }
 }

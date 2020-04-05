@@ -10,7 +10,9 @@ public static void main (String args[]) {
 	System.out.println(0.0/0);//-NAN
 //	System.out.println(0%0)//AE
 	System.out.println(10+"anjali");//10anjali
-    System.out.println("20"+10+20+"30"+(40+50));  // 2010203090
+    System.out.println("20"+10+20+"30"+(40+50));// 2010203090
+    System.out.println('1'+'A');
+    System.out.println(0.0/0.0);//NaN
     
 }
 }

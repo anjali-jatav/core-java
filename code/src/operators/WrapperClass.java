@@ -8,7 +8,7 @@ public class WrapperClass {
 	public static void main(String[] args) {
 	  Double a=-128d;
       Double b=-128d;
-      System.out.println(a==b); //true
+      System.out.println(a==b); //it gives "false" bcoz of Double.
       System.out.println(a.equals(b)); //true
       Integer c=new Integer(20);
       Integer d=new Integer(20);

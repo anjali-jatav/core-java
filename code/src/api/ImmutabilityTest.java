@@ -9,7 +9,7 @@ public class ImmutabilityTest {
 		System.out.println(s.getAddress().getCity());
 		Address address = s.getAddress();
 		address.setCity("Sagar");
-		System.out.println(s.getAddress().getcity());
+		System.out.println(s.getAddress().getCity());
 		
 
 	}

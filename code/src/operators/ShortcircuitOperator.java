@@ -9,6 +9,9 @@ public static void main(String[] args) {
 	{
 	a++;	
 	}
+	/**else {
+		System.out.println("condition fails!!");
+	}**/
 	System.out.println(a);//12
 }
 }

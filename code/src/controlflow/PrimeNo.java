@@ -11,7 +11,7 @@ public class PrimeNo {
          return a<=1 ? false:true;
          }
 	public static void main(String[] args) {
-		boolean result =isPrimeNo(2);
+		boolean result =isPrimeNo(3);
 		System.out.println(result);
 
 	}

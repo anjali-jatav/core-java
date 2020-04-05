@@ -5,6 +5,8 @@ public class EvenNo {
 	static int c=017;
 	static int d=054;
 	static int e=0x6B;
+//	double g=20f;
+	long h=10_000;
 	
 	public static void main(String[] args) {
 	 if (a%2==0)

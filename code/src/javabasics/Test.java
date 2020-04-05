@@ -10,8 +10,8 @@ public class Test {
 	public static void main(String[] args) {
 		x = x || y && !x;
 		y = y && x || y;
-		System.out.println(x);
-		System.out.println(y);
+		System.out.println(x);// false
+		System.out.println(y);// false
 		Student s =new Student();
 //	    Anjali a=new Anjali();
 //	String name = javabasics.pack2.Anjali.name; 

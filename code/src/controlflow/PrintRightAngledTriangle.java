@@ -1,7 +1,7 @@
 package controlflow;
 
-public class StarPattern {
-	public static void printTriangle() {
+public class PrintRightAngledTriangle {
+	public static void rightAngleTriangle() {
 		int rc = 5;
 		int sc = 1;
 		for (int i = 0; i < 5; i++) {
@@ -14,7 +14,7 @@ public class StarPattern {
 		}
 	}
 
-	public static void printReverseTriangle() {
+	public static void ReverseRightAngledTriangle() {
 		int rc = 5;
 		int sc = 1;
 		int bsc = 4;
@@ -32,8 +32,8 @@ public class StarPattern {
 	}
 
 	public static void main(String[] args) {
-//		printTriangle();
-		printReverseTriangle();
+		rightAngleTriangle();
+		ReverseRightAngledTriangle();
 	}
 
 }

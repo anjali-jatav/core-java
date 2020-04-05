@@ -10,7 +10,9 @@ public class ArrayBasedquestion {
 			System.out.println();
 		}
 	    System.out.print(a[i]+" ");
-	}
+	} 
+//		 int []b =new int[]{10,50};
+//		 System.out.println(b[0]);
 	
   } 
 }
